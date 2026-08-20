@@ -1,0 +1,21 @@
+# Problem 1
+
+password = input("Enter your password: ")
+
+if 8 <= len(password) <= 15:
+    print("Password length is valid.")
+else:
+    print("Password too short or too long. Please try again.")
+
+
+
+# Problem 2
+
+credit_score = int(input("Enter credit score: "))
+annual_income = float(input("Enter annual income: "))
+years_at_job = float(input("Enter years at current job: "))
+
+if credit_score >= 700 and annual_income >= 30000 and years_at_job >= 2:
+    print("Result: Loan Approved")
+else:
+    print("Result: Loan Denied")
